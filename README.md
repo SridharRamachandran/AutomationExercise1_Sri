@@ -1,9 +1,9 @@
-# Selenium-Cucumber-Java
+# Selenium-Cucumber-Java (As instructed this framework is developed using Selenium , Java, TestNG and Cucumber)
 This repository contains a sample project(selenium-dev) . The projects showcase automation script development and utilize various reporters such as Allure, HTML, and Extent Report. 
 Additionally, it offers the ability to capture screenshots for tests and generate error shots for failed test cases.
 
-Note: Framewrok is developed to handle below features
-	-  Run in chrome/edge browser either locally or remote (Sauce labs / selenium grid) . This feature is handled in config properries file under 'Config' folder
+Note: Framewrok is developed to handle below features,
+  -  Run in chrome/edge browser either locally or remote (Sauce labs / selenium grid) . This feature is handled in config properries file under 'Config' folder
   -  Separate Selenium Utilities is created to handle all selenium methods
   -  Page Object Manager is used as a page repo which is used to handle all pages that are created in the application
   -  Driver Manager is used as an abstract class to implement the chrome and Edge driver managers
